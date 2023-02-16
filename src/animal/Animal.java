@@ -13,8 +13,8 @@ public class Animal {
 
     // 引数ありコンストラクタ
     public Animal(String name, int age) {
-        this.name = name;
-        this.age = age;
+        setName(name);
+        setAge(age);
     }
 
     public String getName() {
